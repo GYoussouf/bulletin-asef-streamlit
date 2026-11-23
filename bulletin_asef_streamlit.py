@@ -46,7 +46,11 @@ st.markdown("""
         border-radius: 10px;
         border: 1px solid #e2e8f0;
     }
-</style>
+
+    #======================================
+    # Cacher toute la barre de menu (plus radical)
+    #=========================================
+    </style>
 """, unsafe_allow_html=True)
 
 st.markdown("""
