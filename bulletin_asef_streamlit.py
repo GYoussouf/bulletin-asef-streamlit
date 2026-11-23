@@ -49,6 +49,17 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+<style>
+    [data-testid="stToolbar"] {
+        display: none !important;
+    }
+    header [data-testid="stMainMenu"] {
+        display: none !important;
+    }
+</style>
+""", unsafe_allow_html=True)
+
 # ============================================================
 # DONNÉES EXTRAITES DU BULLETIN T3 2026
 # ============================================================
